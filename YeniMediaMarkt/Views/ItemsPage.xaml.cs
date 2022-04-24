@@ -12,6 +12,7 @@ using YeniMediaMarkt.Views;
 
 namespace YeniMediaMarkt.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ItemsPage : ContentPage
     {
         ItemsViewModel _viewModel;
@@ -27,6 +28,23 @@ namespace YeniMediaMarkt.Views
         {
             base.OnAppearing();
             _viewModel.OnAppearing();
+        }
+
+        private async void Deneme13(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page2());
+        }
+        private async void deneme1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Telefon());
+        }
+        private async void deneme2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TV());
+        }
+        private async void deneme3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new beyaz());
         }
     }
 }

@@ -37,6 +37,9 @@
     <EmbeddedResource Update="Views\Page2.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\siparistakip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Telefon.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

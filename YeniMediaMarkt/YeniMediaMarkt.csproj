@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewModels\BaseViewModel.cs" />
+    <Compile Remove="ViewModels\CartViewModel.cs" />
     <Compile Remove="Views\View1.xaml.cs" />
   </ItemGroup>
 

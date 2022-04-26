@@ -13,7 +13,7 @@
                     <SearchBar VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" PlaceholderColor="White"  Placeholder="Ürün arayın" BackgroundColor="#191919">
                     </SearchBar>
                 </Frame>
-                <Image Source="telefon1.jpeg"/>
+                <Image Source="telefon2.jpeg"/>
                 <Button HorizontalOptions="Center" Text="Sepete Ekle" WidthRequest="380" CornerRadius="20" BackgroundColor="Green"/>
                 <Label Margin="40,5" TextColor="White" TextDecorations="Underline">Stoktan Gönderi</Label>
                 <Label Margin="40,5" TextColor="White" TextDecorations="Underline">Mağaza Stok Durumu</Label>
